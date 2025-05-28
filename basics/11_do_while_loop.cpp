@@ -19,5 +19,12 @@ int main() {
 
 	cout << "You sir, are a fish." << endl;
 
+
+	/*
+	Infinite Loop ->
+	do {
+        cout << "noob" << endl;
+    }while (true);
+	*/
 	return 0;
 }
