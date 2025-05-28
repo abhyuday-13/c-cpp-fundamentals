@@ -59,6 +59,6 @@ int main() {
 	if (choice == 'n' || choice == 'N') {
 		cout << "You sir, are a fish!" << endl;
 	}
-    
+
 	return 0;
 }
