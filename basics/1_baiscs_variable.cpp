@@ -9,15 +9,15 @@ using namespace std;
 */
 
 namespace Math {
-int add(int a, int b) {
-    return a + b;
-}
+    int add(int a, int b) {
+        return a + b;
+    }
 } // namespace Math
 
 namespace mathematics {
-int add(int a, int b) {
-    return a + b + 1;   
-}
+    int add(int a, int b) {
+        return a + b + 1;
+    }
 } // namespace mathematics
 
 int shadow = 3000;
