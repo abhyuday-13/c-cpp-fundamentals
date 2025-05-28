@@ -29,5 +29,11 @@ int main() {
 			cout << "You sir, are a fish!";
 	}
 
+	/*
+	Infinite Loop ->
+	while (true) {
+		cout << "69" << endl;
+	}
+	*/
 	return 0;
 }
