@@ -21,12 +21,11 @@ int main() {
 		cout << "You sir, are a fish !!" << endl;
 	}
 
-
 	/*
 	Infinite Loop - no parameters given
 	for (;;) {
-        cout << "gfg" << endl;
-    }
+	    cout << "gfg" << endl;
+	}
 	*/
 	return 0;
 }

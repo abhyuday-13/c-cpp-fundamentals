@@ -44,7 +44,7 @@ int main() {
 	findNum(n);
 
 	cout << endl;
-	
+
 	// goto statement in C and C++ is used to jump to another part of the program using a label.
 	// It provides an unconditional jump, meaning the flow of control is transferred directly to a labeled statement, skipping anything in between.
 	int num = 4;

@@ -32,7 +32,7 @@ int main() {
 	/*
 	Infinite Loop ->
 	while (true) {
-		cout << "69" << endl;
+	    cout << "69" << endl;
 	}
 	*/
 	return 0;
