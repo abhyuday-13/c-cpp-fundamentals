@@ -14,7 +14,7 @@ int main() {
 	cout << "a = ";
 	cin >> a;
 	if (a == 0) {
-		cout << "Not a quadratic equation";
+		cout << "Not a quadratic equation\n";
 		return 0;
 	}
 
@@ -24,7 +24,7 @@ int main() {
 	cout << "c = ";
 	cin >> c;
 
-	int D = (b * b - 4 * a * c);
+	double D = (b * b - 4 * a * c);
 
 	if (D > 0) {
 		double root1 = (-b + sqrt(D)) / (2.0 * a);
@@ -44,5 +44,9 @@ int main() {
 		     << realPart << " - " << imaginaryPart << "i" << endl;
 	}
 
+	// system("pause");
+	cout << "Press Enter to exit...";
+	cin.ignore();
+	cin.get();
 	return 0;
 }
