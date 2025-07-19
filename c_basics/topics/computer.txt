@@ -1,0 +1,55 @@
+I don’t like saying “computers only understand 0s and 1s” it’s technically not true, 
+computers don’t understand that either. They just understand different voltage signals, 
+anything below a certain voltage is treated by the internal circuitry as a 
+“low” of “off” value, and anything above another threshold is “high” or “on”.
+Since they can only understand two digital values, the most logical thing to 
+implement is binary, which we do by creating logic that can treat “off” and “on” 
+as 0 and 1 digits in binary, and perform operations with binary numbers represented 
+as voltage values, but again at no point a computer knows anything, it’s just 
+wired by us to treat voltage like we treat the digits 0 and 1.
+
+Clever interpretation of those on/offs and a predetermined library of definitions is how we get complex data. 
+If we tell the computer the pattern of 01101001 means i (try typing "i to binary" in a search engine. 
+It also works with longer things, like a word) then we can use similar patterns to represent text a sentence 
+by chaining these chunks of data together. 
+
+For pictures it involves using a pattern to define what color any given pixel is, and videos are just a bunch of pictures in a row. 
+There's some complexity with compression algorithms, but that just involves some parts of 
+the data defining how to interpret the 1s and 0s in other parts of the data. 
+
+
+
+What computers actually respond to:
+Computers work with electrical signals — voltage levels across circuits.
+
+These voltages are interpreted as either:
+
+    Low voltage → interpreted as 0 (false, off)
+
+    High voltage → interpreted as 1 (true, on)
+
+Digital logic gates (built from transistors) take these signals and perform logical operations like AND, OR, NOT.
+
+So does the computer understand anything?
+No — not in the conscious or even symbolic sense. The computer:
+
+    Doesn't understand "zero" or "one" as abstract concepts.
+
+    It merely responds to voltages in predictable, human-defined ways.
+
+
+We humans assign meaning to the patterns of bits:
+
+    01101001 → ASCII for 'i'
+
+    00101100 → ASCII for ','
+
+    Group 24 bits → a pixel color
+
+    A group of pixel rows over time → a video frame
+
+------------------------------------------------------------------------------------------------------------------------
+
+How Source Code Works ?
+
+Preprocessing -> Compiling -> Assembling -> Linking
