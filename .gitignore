@@ -2,4 +2,6 @@
 *.exe
 test.cpp
 test2.cpp
+test.c
+test1.c
 excali.excalidraw
